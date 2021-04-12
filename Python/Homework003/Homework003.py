@@ -40,12 +40,16 @@ largest(list)
 words = ['Tennessee', 'Texas', 'Kentucky', 'Alabama', 'Ohio']
 
 def shortest(strings):
+    state = strings[0]
     for i in strings:
-        if len(i) < len(strings):
-            shortest = i
-            print('This is the shortest string:',shortest)
+        if len(i) < len(state):
+            state = i
+            
+    return state
 
-shortest(words)
+shortstringReturned = shortest(words)
+
+print('This is the shortest string:', shortstringReturned)
 
 # 4. Find the longest String
 # Write a function longest that accepts a List of Strings as an argument.
@@ -55,10 +59,13 @@ shortest(words)
 words =['Tennessee', 'Texas', 'Kentucky', 'Alabama', 'Ohio']
 
 def longest(strings):
-    longest = ''
+    state = strings[0]
     for i in strings:
-        if len(i) > len(longest):
-            longest = i
-            print('This is the longest string:', longest)
+        if len(i) > len(state):
+            state = i
+            
+    return state
 
-longest(words)
+longstringReturned = longest(words)
+
+print('This is the longest string:', longstringReturned)
