@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.grunge{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+body{
+    background-color:darkolivegreen;
+    color: rgb(253, 249, 249);
+    margin: 2rem;
+}
