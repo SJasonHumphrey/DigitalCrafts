@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+/* background color palette */
+        /* Green #335c67
+        offwhite #fff3b0
+        Gold #e09f3e
+        Light Red #9e2a2b
+        Dark Red #540b0e */
+.bg-green{
+    background-color: #335c67;
+}
+
+.bg-offwhite{
+    background-color: #fff3b0;
+}
+
+.bg-gold{
+    background-color: #e09f3e;
+}
+
+.bg-ltred{
+    background-color: #9e2a2b;
+}
+
+.bg-dred{
+    background-color: #540b0e; 
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: white
+}
+
+.logo{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 3rem;
+    margin-left: 2rem; 
+}
+.font-one{
+    font-family: 'Homemade Apple', cursive;
+}
+
+.font-two{
+    font-family: 'Montserrat', sans-serif;
+}

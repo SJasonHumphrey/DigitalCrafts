@@ -1,0 +1,21 @@
+.opacity{
+    opacity: .5;
+}
+
+.z20{
+    z-index: 20;
+}
+
+.z10{
+    z-index: 10;
+}
+
+.z5{
+    z-index: 5;
+}
+
+.pepper{
+    transform: rotate(-90deg);
+    width: 23%;
+}
+
