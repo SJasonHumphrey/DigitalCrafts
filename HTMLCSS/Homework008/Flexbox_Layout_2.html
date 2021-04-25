@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+        }
+
+        .top {
+            height: 100px;
+        }
+
+        .bottom {
+            height: 100px;
+        }
+
+        .main {
+            height: 500px;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            background-color: darksalmon;
+        }
+
+        .color-one {
+            background-color: lightslategray;
+        }
+
+        .color-two {
+            background-color: lightgrey;
+        }
+
+        .color-three {
+            background-color: darkgray;
+        }
+
+        .column-1 {
+            width: 300px;
+        }
+
+        .column-2 {
+            width: 2000px;
+        }
+
+        .text-align {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row color-one top">
+        <h2>Header</h2>
+    </div>
+    <div class="row color-two main">
+        <div class="color-three column column-1">
+            <h2>Column 1</h2>
+        </div>
+        <div class="column column-2">
+            <h2>Column 2</h2>
+        </div>
+
+    </div>
+    <div class="row color-one bottom">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+
+</html>
