@@ -26,7 +26,7 @@ var string = 'Hello, I am file 1.';
 
 fs.writeFile('file1.txt', string.toUpperCase(), (error)=>{
     if (error) {
-    console.log(error);
+    console.log(error.message);
     return
     }
 });

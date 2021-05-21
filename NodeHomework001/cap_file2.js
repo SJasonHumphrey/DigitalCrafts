@@ -14,20 +14,22 @@
 
 const prompt = require('prompt-sync')();
 
+const fs =  require('fs');
+
 const fileName1 = prompt('File Name 1?: ');
 
 const fileName2 = prompt('File Name 2?: ');
 
-const fs =  require('fs');
 
 fs.readFile(fileName1, (error, buffer)=>{
     if(error){
         console.log('Danger! Danger! Will Robinson:', error.message);
         return
     }
-    
+    var message = buffer.toString();
+    var capsMessage = message.toUpperCase();
 
-fs.writeFile(fileName2, buffer, (error)=>{
+fs.writeFile(fileName2, message, (error)=>{
     if (error) {
     console.log('Danger! Danger! Will Robinson:', error.message);
     return
