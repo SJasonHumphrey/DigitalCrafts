@@ -1,0 +1,14 @@
+{
+  "name": "nodeexpresshomework001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Express101Homework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
