@@ -596,7 +596,6 @@ let nav = `
     <li><a href="/artist/4">Fortress</a></li>
     <li><a href="/artist/5">The Last Hero</a></li>
     <li><a href="/artist/6">Walk The Sky</a></li>
-    <li><a href="/">Homepage</a></li>
     </ul>
 `
 
@@ -629,6 +628,7 @@ app.get('/artist/:id', (request, res) => {
         <img src="${data[id].strAlbumThumb}"  height="300px">
         <ol><b>Track Listing</b></ol>
         <p>${data[id].track_listing}</p>
+        <p><a href="/">Homepage</a></p>
         
     
     `)
